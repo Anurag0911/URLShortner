@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src=/static/index.js></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+            <form method='POST'>
+
+
+                <label for="url"><b>Link</b></label><br>
+                <input type="text" class="input1" onChange="activateShortner()" placeholder="Type in or paste link here"
+                    name='url' />
+                <br><label for="short url">Shortened URL</label>
+                <br>
+                <input type='text' class="input2" id="kom" name="short url" disabled />
+                <br> <button type='button' id="asText" onClick="shortenUrl()">Shorten URL</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
